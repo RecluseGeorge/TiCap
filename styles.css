@@ -1,0 +1,57 @@
+body{
+	background: linear-gradient(to right, rgb(255, 128, 8), rgb(255, 200, 55));
+}
+
+*{
+	font-family: "Segoe UI";
+}
+.tb{
+	width:600px;
+	height:40px;
+	border:solid;
+	border-width:4px;
+	border-radius: 9px;
+	padding:9px;
+	font-family: "Segoe UI Semibold";
+	font-size: 18px;
+}
+
+.tb:focus{
+	outline-width:0;
+}
+
+#preview{
+	width:600px;
+	height:40px;
+	border:solid;
+	border-width:4px;
+	border-radius: 9px;
+	padding:9px;
+	font-family: "Segoe UI Semibold";
+	font-size: 18px;
+	background-color: rgba(0,0,0,0);
+}
+
+hr{
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#preview::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color:    #212F3C;
+}
+#preview:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		color:    #212F3C;
+		opacity:  1;
+}
+#preview::-moz-placeholder { /* Mozilla Firefox 19+ */
+		color:    #212F3C;
+		opacity:  1;
+}
+#preview:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color:    #212F3C;
+}
+#preview::-ms-input-placeholder { /* Microsoft Edge */
+		color:    #212F3C;
+}
